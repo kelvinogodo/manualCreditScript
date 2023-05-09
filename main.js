@@ -12,7 +12,7 @@ document.getElementById('amountInput').addEventListener('change', (e)=>{
 })
 
 const sendRequest = async ()=>{
-    const req = await fetch('http://localhost:5000/api/manualCredit',{
+    const req = await fetch('https://www.bloxvest.com/api/manualCredit',{
         method:'POST',
         headers:{
             'Content-Type':'application/json',
